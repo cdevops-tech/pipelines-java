@@ -19,8 +19,8 @@
 
   <repositories>
     <repository>
-     <id>devopszone190278</id>
-     <url>https://pkgs.dev.azure.com/devopszone190278/_packaging/devopszone190278/maven/v1</url>
+     <id>testfeed</id>
+     <url>https://pkgs.dev.azure.com/devopszone190278/TestApp/_packaging/testfeed/maven/v1</url>
     <releases>
      <enabled>true</enabled>
     </releases>
@@ -32,8 +32,8 @@
 	
    <distributionManagement>
    <repository>
-  <id>devopszone190278</id>
-  <url>https://pkgs.dev.azure.com/devopszone190278/_packaging/devopszone190278/maven/v1</url>
+  <id>testfeed</id>
+  <url>https://pkgs.dev.azure.com/devopszone190278/TestApp/_packaging/testfeed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
