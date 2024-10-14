@@ -17,6 +17,32 @@
     </dependency>
   </dependencies>
 
+  <repositories>
+    <repository>
+     <id>devopszone190278</id>
+     <url>https://pkgs.dev.azure.com/devopszone190278/_packaging/devopszone190278/maven/v1</url>
+    <releases>
+     <enabled>true</enabled>
+    </releases>
+    <snapshots>
+     <enabled>true</enabled>
+    </snapshots>
+    </repository>
+   </repositories>
+	
+   <distributionManagement>
+   <repository>
+  <id>devopszone190278</id>
+  <url>https://pkgs.dev.azure.com/devopszone190278/_packaging/devopszone190278/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+   </distributionManagement>
+	
   <build>
     <finalName>helloworld</finalName>
     <plugins>
@@ -47,16 +73,5 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-	
-<repository>
-   <id>devopszone190278</id>
-   <url>https://pkgs.dev.azure.com/devopszone190278/_packaging/devopszone190278/maven/v1</url>
-   <releases>
-     <enabled>true</enabled>
-   </releases>
-   <snapshots>
-     <enabled>true</enabled>
-   </snapshots>
-</repository>
 	
 </project>
