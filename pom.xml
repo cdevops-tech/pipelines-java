@@ -19,8 +19,8 @@
 
   <repositories>
     <repository>
-     <id>artifact-repo</id>
-     <url>https://pkgs.dev.azure.com/devopszone190278/TestApp/_packaging/artifact-repo/maven/v1</url>
+     <id>java-artifacts</id>
+     <url>https://pkgs.dev.azure.com/devopszone190278/OnlineApp/_packaging/java-artifacts/maven/v1</url>
     <releases>
      <enabled>true</enabled>
     </releases>
@@ -32,8 +32,8 @@
 	
    <distributionManagement>
    <repository>
-  <id>artifact-repo</id>
-  <url>https://pkgs.dev.azure.com/devopszone190278/TestApp/_packaging/artifact-repo/maven/v1</url>
+  <id>java-artifacts</id>
+  <url>https://pkgs.dev.azure.com/devopszone190278/OnlineApp/_packaging/java-artifacts/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
